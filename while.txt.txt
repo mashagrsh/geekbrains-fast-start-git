@@ -1,0 +1,9 @@
+a=int(input())
+i=0
+if a==0:
+    print(a)
+while a!=0:
+    i+=a
+    a=int(input())
+    if a==0:
+        print(i)
